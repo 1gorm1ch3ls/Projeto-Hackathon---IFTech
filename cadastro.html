@@ -6,11 +6,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
+    <meta name="keywords" content="hackathon, 4.community, comunidade, campus party, web design" />
     <meta name="description" content="" />
     <link rel="stylesheet" type="text/css" href="css/cadastro.css">
     <link rel="stylesheet" type="text/css" href="css/padrao.css">
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="shortcut icon" href="img/icone4events.png">
     <title>Cadastro</title>
 
 </head>
@@ -21,34 +22,38 @@
 
         <img src="img/logo.png" id="img-logo" alt="">
 
-        <section>
-            <label id="label-email" for="email">E-mail:</label>
-            <input id="email" type="email" placeholder="4.community@email.com">
-        </section>
+        <form>
 
-        <section>
-            <label id="label-nome" for="nome">Nome completo:</label>
-            <input id="nome" type="text" placeholder="Campus Party da Silva">
-        </section>
+            <section>
+                <label id="label-email" for="email">E-mail:</label>
+                <input id="email" name="email" type="email" value="" placeholder="4.community@email.com" required>
+            </section>
 
-        <section>
-            <label id="label-user" for="user">Username:</label>
-            <input id="user" type="text" placeholder="Campus_PartyBSB5">
-        </section>
+            <section>
+                <label id="label-nome" for="nome">Nome completo:</label>
+                <input id="nome" type="text" placeholder="Campus Party da Silva">
+            </section>
 
-        <section>
-            <label id="label-senha" for="senha">Senha:</label>
-            <input id="senha" type="password" placeholder="********">
-        </section>
-        
-        <section>
-            <label id="label-data" for="data">Data de nascimento:</label>
-            <input id="data" type="date">
-        </section>
-        
-        <section id="botoes">
-            <button type="submit">Registrar</button>
-        </section>
+            <section>
+                <label id="label-user" for="user">Username:</label>
+                <input id="user" type="text" placeholder="Campus_PartyBSB5">
+            </section>
+
+            <section>
+                <label id="label-senha" for="senha">Senha:</label>
+                <input id="senha" type="password" placeholder="********">
+            </section>
+            
+            <section>
+                <label id="label-data" for="data">Data de nascimento:</label>
+                <input id="data" type="date">
+            </section>
+            
+            <section id="botoes">
+                <button type="submit" onclick="enviar()">Registrar</button>
+            </section>
+
+        </form>
 
         <p class="texto">Caso já tenha cadastro, <a href="login.html">faça login.</a></p>
 
