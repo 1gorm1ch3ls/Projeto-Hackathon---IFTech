@@ -1,0 +1,215 @@
+body{
+    background-color: #110729;
+    display: flex;
+    background: url(/img/fundo_cadastro.png);
+    background-repeat: no-repeat;
+    background-color: #110729;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-color: rgba(17, 7, 41, 0.1);
+}
+
+#card-cadastro{
+    position: absolute;
+    background: #FFFFFF;
+    border-radius: 25px;
+    width: 642px;
+    height: 864px;
+    left: 399px;
+    top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 80%;
+}
+
+#img-logo {
+    margin-top:  40px;
+}
+
+#label-email{
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: calc(50% - 63px/2 - 204.5px);
+    top: calc(50% - 21px/2 - 244.5px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#email{
+    position: absolute;
+    width: 471px;
+    height: 59px;
+    left: 85px;
+    top: 211px;
+    border-radius: 10px;
+}
+
+#email::placeholder{
+    padding-left: 15px;
+}
+
+#label-nome{
+    position: absolute;
+    width: 148px;
+    height: 23px;
+    left: 85px;
+    top: 289px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#nome{
+    position: absolute;
+    width: 471px;
+    height: 59px;
+    left: 85px;
+    top: 323px;
+    border-radius: 10px;
+}
+
+#nome::placeholder{
+    padding-left: 15px;
+}
+
+
+#label-user{
+    position: absolute;
+    width: 97px;
+    height: 23px;
+    left: 85px;
+    top: 395px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#user{
+    position: absolute;
+    width: 471px;
+    height: 59px;
+    left: 85px;
+    top: 430px;
+    border-radius: 10px;
+}
+
+#user::placeholder{
+    padding-left: 15px;
+}
+
+
+#label-senha{
+    position: absolute;
+    width: 62px;
+    height: 23px;
+    left: 85px;
+    top: 502px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#senha{
+    position: absolute;
+    width: 471px;
+    height: 59px;
+    left: 85px;
+    top: 537px;
+    border-radius: 10px;
+}
+
+#senha::placeholder{
+    padding-left: 15px;
+}
+
+
+#label-data{
+    position: absolute;
+    width: 185px;
+    height: 23px;
+    left: 85px;
+    top: 609px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 23px;
+    color: #000000;
+}
+
+#data{
+    position: absolute;
+    width: 471px;
+    height: 59px;
+    left: 85px;
+    top: 644px;
+    font-size: 16px; 
+    border-radius: 10px;
+}
+
+#data::placeholder{
+    padding-left: 15px;
+}
+
+#botoes {
+    display: flex;  
+    flex-direction: column;
+    justify-self: center;
+}
+
+button{
+    position: absolute;
+    width: 300px;
+    height: 70px;
+    /* left: 0px; */
+    top: 726px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+    background: #4D2A95;
+    border-radius: 20px;
+    align-self: center;
+}
+
+p{
+    position: absolute;
+    /* width: 100%; */
+    height: 24px;
+    /* left: 139px; */
+    top: 816px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+}
+
+a{
+    color:#4D2A95;
+    font-weight: bold;
+    text-decoration: none;
+}

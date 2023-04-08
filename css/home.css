@@ -1,0 +1,138 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#side_menu {
+    position: fixed;
+    left: 0;
+    background-color: #D9D9D9;
+    padding: 1rem;
+    width: 5.5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#side_menu div {
+    background-color: #232323;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin: 1rem 0;
+}
+
+/* caixa de PERFIL do usuário */
+#profile_card{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #1D203E;
+    width: 13rem;
+    display: flex;
+    gap: 1rem;
+    z-index: 1;
+}
+
+#profile_name {
+    color: #FFF;
+}
+
+main {
+    background-color: #c2c2c2;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+
+#explorar {
+    padding: 1rem 5rem;
+    background-color: #2C2F48;
+    color: #FFF;
+    width: 100%;
+    height: 5.5rem;
+}
+
+.caixa_explorar {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #FFF;
+    border-radius: 4rem;
+}
+
+.section_title {
+    margin: 0 3rem;
+}
+
+#card1 {
+    background-color: #ac54ff;
+    color: #FFF;
+    margin: 2rem auto;
+    width: 75%;
+    border-radius: 4rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+.linha2{
+    max-width: 100%;
+    display: flex;
+    margin: 0 auto;
+}
+
+#card2 {
+    background-color: #9953db;
+    color: #FFF;
+    width: 35%;
+    margin: 2rem;
+    border-radius: 4rem;
+    padding: 4rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+#card3 {
+    background-color: #a66ade;
+    color: #FFF;
+    width: 35%;
+    margin: 2rem;
+    border-radius: 4rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#card4 {
+    background-color: #a66ade;
+    color: #FFF;
+    width: 35%;
+    margin: 2rem;
+    border-radius: 4rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#card5 {
+    background-color: #a66ade;
+    color: #FFF;
+    width: 35%;
+    margin: 2rem;
+    border-radius: 4rem;
+    padding: 4rem 2rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+}

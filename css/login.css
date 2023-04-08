@@ -1,0 +1,140 @@
+body{
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: linear-gradient(240.3deg, #4A2A7E 8.25%, #A06DF2 83.5%);
+    overflow: hidden;
+}
+
+#card-login{
+    position: absolute;
+    width: 30rem;
+    height: 700px;
+    left: 134px;
+    top: 5%;
+    background: #FFFFFF;
+    border-radius: 25px 0px 0px 25px;
+}
+
+#logo{
+    position: absolute;
+    left: 7.95%;
+    right: 10%;
+    top: 10.72%;
+    bottom: 79.53%;
+}
+
+#label-email{
+    position: absolute;
+    width: 63px;
+    height: 21px;
+    left: calc(50% - 63px/2 - 155.5px);
+    top: calc(50% - 21px/2 - 142.5px);
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+#email{
+    position: absolute;
+    width: 367px;
+    height: 50px;
+    left: 31px;
+    top: 238px;
+    border-radius: 10px;
+}
+
+#email::placeholder {
+    padding: 10px;
+}
+
+#label-senha{
+    position: absolute;
+    width: 55px;
+    height: 21px;
+    left: 33px;
+    top: 346px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #000000;
+}
+
+#senha{
+    position: absolute;
+    width: 367px;
+    height: 50px;
+    left: 31px;
+    top: 378px;
+    border-radius: 10px;
+}
+
+#senha::placeholder {
+    padding: 10px;
+}
+
+#botoes {
+    display: flex;
+    flex-direction: column;
+}
+
+#botao-enviar{
+    height: 65px;
+    position: absolute;
+    left: 7.73%;
+    right: 9.99%;
+    top: 67.69%;
+    bottom: 21.38%;
+    background-color: #4D2A95;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+p{
+    position: absolute;
+    /*width: 212px;*/
+    height: 24px;
+    /* left: 47px; */
+    top: 592px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #000000;
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: #4D2A95;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#retangulo{
+    position: absolute;
+    width: 837px;
+    height: 667px;
+    left: 457px;
+    left: 38rem;
+    top: 7%;
+    background: linear-gradient(99.28deg, rgba(255, 245, 245, 0.7) -67.66%, rgba(255, 245, 245, 0) 108.22%);
+    border-radius: 0px 48px 20px 20px;
+}
+
+#fundo_chave{
+    position: absolute;
+    /* width: 714.62px; */
+    /* height: 727.05px; */
+    left: 142.7px;
+    top: 32.31px;
+
+}
